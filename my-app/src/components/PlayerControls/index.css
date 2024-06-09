@@ -1,0 +1,36 @@
+.playerControls_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.4em;
+}
+
+.readingControl_container {
+    text-align: center;
+    padding: 0 .4em;
+}
+/*conteneur icons*/
+.controlButton {
+    width: 100%;
+    border: none;
+}
+/*icons*/
+.controls_icon {
+    color: white;
+    width: 1.6em;
+    height: 1.6em;
+}
+    
+/*conteneur barre de progression*/
+.durationControl_container {
+    width: 100%;
+    padding: 0 .4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*input*/
+.timeline {
+    width: 100%;
+}
